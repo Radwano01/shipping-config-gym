@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import "./home.scss"
 import About from "../about/About"
 import Facts from '../facts/Facts'
