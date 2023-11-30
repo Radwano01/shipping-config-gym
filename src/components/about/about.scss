@@ -1,0 +1,143 @@
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
+    .left{
+        padding: 40px;
+        img{
+            width: 600px;
+            height: 543px;
+        }
+    }
+
+    .right-abt{
+        .about-text{
+            color: cyan;
+        }
+
+        h1{
+            padding: 20px;
+        }
+        h4{
+            color: grey;
+            padding: 20px;
+        }
+        .cards{
+            display: flex;
+            padding: 20px;
+
+            .card{
+                padding-top: 50px;
+                margin-right: 5px;
+                h4{
+                    padding: 0;
+                }
+            }
+        }
+        button{
+            margin-left: 20px;
+            padding: 20px 50px;
+            background-color: brown;
+            color: white;
+            border: none;
+            cursor: pointer;
+
+            a{
+                color: white;
+            }
+        }
+    }
+
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    .container-about{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .left{
+            padding: 40px;
+            img{
+                display: none;
+            }
+        }
+        .right-abt{
+            .cards{
+                display: flex;
+            }
+        }
+    }
+}
+@media (min-width:769px) and (max-width:1023px){
+    .container-about{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .left{
+            padding: 40px;
+            img{
+                display: none;
+            }
+        }
+        .right-abt{
+            .cards{
+                display: flex;
+            }
+        }
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .container-about{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .left{
+            padding: 40px;
+            img{
+                display: none;
+            }
+        }
+        .right-abt{
+            .cards{
+                display: flex;
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container-about{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .left{
+            padding: 40px;
+            img{
+                display: none;
+            }
+        }
+        .right-abt{
+            .cards{
+                display: flex;
+            }
+        }
+    }
+}

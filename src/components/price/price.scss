@@ -1,0 +1,125 @@
+.container-price{
+    background-color: rgb(255, 250, 250);
+    padding: 20px;
+    .price{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h4{
+            color: cyan;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 50px;
+
+        .card{
+            background-color: white;
+            padding: 50px;
+            h3{
+                color: brown;
+            }
+            .price-number{
+                font-size: 70px;
+            }
+            ul{
+                li{
+                    padding-top: 40px;
+                }
+            }
+            button{
+                margin-top: 30px;
+                background-color: brown;
+                color: white;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width:1024px) and (max-width:1200px){
+    .container-price{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            
+            .card{
+                margin: 10px;
+            }
+        }
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1023px){
+    .container-price{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            
+            .card{
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .container-price{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            
+            .card{
+                margin: 10px;
+            }
+        }
+    }
+
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container-price{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .cards{
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+            
+            .card{
+                margin: 10px;
+            }
+        }
+    }
+
+}
+       

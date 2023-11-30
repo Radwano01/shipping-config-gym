@@ -1,0 +1,94 @@
+.container-footer{
+    background: url("../../assets/logisticimages/blue-digital-screen-world-map-sbrw7tm0erbxvaoy.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    margin-top: 50px;
+    object-fit: cover;
+
+    h4{
+        color: white;
+        padding: 8px;
+    }
+
+    .sections{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .section{
+            a{
+                color: white;
+            }
+            form{
+                input{
+                    padding: 20px;
+
+                }
+                button{
+                    background-color: brown;
+                    color: white;
+                    padding: 20px;
+                    border: none;
+                }
+            }
+            color: white;
+            margin: 70px;
+
+            h1{
+                padding: 10px;
+            }
+
+            h5{
+                padding: 10px;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width:1024px) and (max-width:1200px){
+    .container-footer{
+        .sections{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            background: url("../../assets/logisticimages/blue-digital-screen-world-map-sbrw7tm0erbxvaoy.jpg");
+            width: 100%;
+            background-attachment: fixed;
+        }
+    }
+}
+@media (min-width:769px) and (max-width:1023px){
+    .container-footer{
+        .sections{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            background: url("../../assets/logisticimages/blue-digital-screen-world-map-sbrw7tm0erbxvaoy.jpg");
+            width: 100%;
+            background-attachment: fixed;
+        }
+    }
+}
+@media (min-width:585px) and (max-width:768px){
+    .container-footer{
+        .sections{
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            background: url("../../assets/logisticimages/blue-digital-screen-world-map-sbrw7tm0erbxvaoy.jpg");
+            width: 100%;
+            background-attachment: fixed;
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:584px){
+    .container-footer{
+        .sections{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            background: url("../../assets/logisticimages/blue-digital-screen-world-map-sbrw7tm0erbxvaoy.jpg");
+            width: 100%;
+            background-attachment: fixed;
+        }
+    }
+}
+       

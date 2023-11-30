@@ -1,0 +1,214 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        background-color: brown;
+        color: white;
+        padding: 20px;
+        a{
+            color: white;
+            background-color: brown;
+        }
+    }
+
+    .features{
+        ul{
+            display: flex;
+        }
+    
+        ul li{
+            padding: 20px;
+        }
+    
+        a{
+            color: black;
+            padding: 30px;
+            font-size: 20px;
+        }
+    
+        a:hover{
+            color: white;
+            background-color: brown;
+            transition: 0.7s;
+        }
+
+        .nav-btn{
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            outline: none;
+            display: none;
+            opacity: 0;
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+
+    .navbar{
+        .features{
+            .nav-btn{
+                display: flex;
+                opacity: 1;
+            }
+            .nav-btn.bar{
+                margin-right: 10px;
+            }
+
+            ul{
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 1.5rem;
+                background-color: brown;
+                color: white;
+                transition: 1s;
+                transform: translateY(-120vh);
+                li{
+                    a{
+                        color: white;
+                    }
+                    h2{
+                        color: white;
+                    }
+                }
+            }
+            .responsive-nav{
+                transform: none;
+            }
+        }
+    }
+
+}
+@media (min-width:769px) and (max-width:1024px){
+
+    .navbar{
+        .features{
+            .nav-btn{
+                display: flex;
+                opacity: 1;
+            }
+
+            ul{
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 1.5rem;
+                background-color: brown;
+                color: white;
+                transition: 1s;
+                transform: translateY(-150vh);
+                li{
+                    a{
+                        color: white;
+                    }
+                    h2{
+                        color: white;
+                    }
+                }
+            }
+            .responsive-nav{
+                transform: none;
+
+            }
+        }
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+
+    .navbar{
+        .features{
+            .nav-btn{
+                display: flex;
+                opacity: 1;
+            }
+
+            ul{
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 1.5rem;
+                background-color: brown;
+                color: white;
+                transition: 1s;
+                transform: translateY(-250vh);
+                li{
+                    a{
+                        color: white;
+                    }
+                    h2{
+                        color: white;
+                    }
+                }
+            }
+            .responsive-nav{
+                transform: none;
+
+            }
+        }
+    }
+
+}
+
+@media (min-width:320px) and (max-width:480px){
+
+    .navbar{
+        .features{
+            .nav-btn{
+                display: flex;
+                opacity: 1;
+            }
+
+            ul{
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 1.5rem;
+                background-color: brown;
+                color: white;
+                transition: 1s;
+                transform: translateY(-340vh);
+                li{
+                    a{
+                        color: white;
+                    }
+                    h2{
+                        color: white;
+                    }
+                }
+            }
+            .responsive-nav{
+                transform: none;
+
+            }
+        }
+    }
+
+}

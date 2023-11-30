@@ -1,0 +1,107 @@
+.container-quote{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 55px;
+
+    .left{
+        h4{
+            color: cyan;
+            padding: 20px;
+        }
+        h1{
+            padding: 20px;
+            font-size: 45px;
+        }
+        .content{
+            color: grey;
+            padding: 20px;
+        }
+        .contact-quote {
+            display: flex;
+            padding: 20px;
+            .left-icon-quote{
+                padding: 10px;
+                margin-right: 10px;
+                background-color: brown;
+                color: white;
+            }
+            .text-icon-quote{
+                .number{
+                    color: brown;
+                }
+            }
+        }
+    }
+
+    .right{
+        background-color: rgb(252, 241, 241);
+        padding: 50px;
+        form{
+            input {
+                padding: 10px;
+                margin: 20px;
+                margin-left: 0;
+            }
+            select{
+                padding: 10px 61px;
+            }
+            .name-email{
+                display: flex;
+            }
+            textarea{
+                padding: 10px;
+            }
+            button{
+                background-color: brown;
+                padding: 15px;
+                border: 0;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    .container-quote{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px){
+    .container-quote{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .container-quote{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container-quote{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+       
