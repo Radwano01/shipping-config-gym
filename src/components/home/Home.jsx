@@ -19,7 +19,7 @@ const Home = () => {
   const handleSubmit = async(e)=>{
     e.preventDefault()
     try{
-      const response = await axios.get(`http://localhost:5002/orders/api/get-single-order/${code}`)
+      const response = await axios.get(`{process.env.REACT_APP_API}/orders/api/get-single-order/${code}`)
       if(response){
         setData(response.data)
         navigate.push("/orders", {data})
