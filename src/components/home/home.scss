@@ -1,3 +1,19 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.spinner {
+    width: 200px; /* Adjust the size of the spinner as needed */
+    height: 200px;
+}
 .container-home{
     height: 100%;
     width: 100%;
