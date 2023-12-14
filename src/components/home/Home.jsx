@@ -19,7 +19,7 @@ const Home = () => {
   const handleSubmit = async(e)=>{
     e.preventDefault()
     try{
-      const response = await axios.get(`{process.env.REACT_APP_API}/orders/api/get-single-order/${code}`)
+      const response = await axios.get(`{process.env.REACT_APP_API}/api/orders/get-order-by-code`,{code})
       if(response){
         setData(response.data)
         navigate.push("/orders", {data})
