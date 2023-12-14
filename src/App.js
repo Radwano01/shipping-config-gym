@@ -7,6 +7,7 @@ import AboutSection from './components/about-section/AboutSection';
 import ServicesSection from './components/services-section/ServicesSection';
 import Contact from './components/contact/Contact';
 import Orders from './components/orders/Orders';
+import OrderDetails from './components/orderdetails/OrderDetails';
 
 function App() {
   return (
